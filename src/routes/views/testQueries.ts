@@ -34,6 +34,11 @@ router.get("/dynamic/:queryID", async (req, res) => {
 		values?: any[];
 	}[] = [];
 
+	if (needs.length === 1 && needs[0] === "none") {
+		res.redirect(`/tests/${req.params.queryID}`);
+		return;
+	}
+
 	if (needs.includes("twoDates")) {
 		finalNames.push("fecha_inicio", "fecha_final");
 

@@ -36,7 +36,3 @@ from
   ganancias_servicios
 order by
   ganancias asc;
-select
-  *
-from
-  tipo_diagnostico;

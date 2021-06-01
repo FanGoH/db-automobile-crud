@@ -171,10 +171,13 @@ select * from departamento join max_dep on dno=numero;`,
 	{
 		description:
 			"# 12 Mostrar las promociones vigentes por un rango de fechas determinado.",
-		query: `set @inicio = cast('1900-01-01' as date);
-set @final = cast('2050-01-01' as date);
-select * from promocion where final >= @inicio and inicio<= @final;
-select * from promocion;
+		query: `select
+  *
+from
+  promocion
+where
+  final >= cast('1900-01-01' as date)
+  and inicio <= cast('2050-01-01' as date);
 `,
 	},
 	{
@@ -506,13 +509,8 @@ where
 		description:
 			"# 24 Mostrar el departamento con mayor numero de garantias aplicadas y cuanto suma de gasto debido a dichas garantias.",
 		query: `with diagnostico_garantia as (
-    select
-      clave
-    from
-      tipo_diagnostico
-    where
-      nombre = 'Reparacion Garantía'
-  ),
+	select clave from tipo_diagnostico where clave='X48PM'
+),
   garantias_aplicadas as (
     select
       servicio_requerido.id as id
@@ -736,10 +734,6 @@ select
 from
   ganancias_servicios
 order by
-  ganancias asc;
-select
-  *
-from
-  tipo_diagnostico;`,
+  ganancias asc;`,
 	},
 ];

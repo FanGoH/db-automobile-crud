@@ -48,6 +48,9 @@ Regresa una tabla con los nombres de las tablas
 
 Regresa de manera gráfica una tabla con los queries de prueba hardcodeados
 
+/tests/dynamic/:queryID
+
+Muestra un formulario para generar queries de prueba con parametros arbitrarios
 
 /:table/
 
@@ -56,3 +59,4 @@ Regresa los datos de una tabla llamada "table"
 /:table/create
 
 Muestra formulario para agregar datos en la tabla create
+
