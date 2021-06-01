@@ -1,0 +1,52 @@
+{
+	"table": [
+		{
+			"Field": "id",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": "auto_increment"
+		},
+		{
+			"Field": "clave_tipo",
+			"Type": "char(7)",
+			"Null": "NO",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "clave_garantia",
+			"Type": "char(5)",
+			"Null": "YES",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "clave_promocion",
+			"Type": "char(5)",
+			"Null": "YES",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "diagnostico_id",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "refacciones_necesarias_id",
+			"Type": "int",
+			"Null": "YES",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

@@ -5,6 +5,10 @@ export const generateFieldsObject = <T>(
 ): QueryFields<T> | "*" => {
 	const obj: QueryFields<T> = {};
 
+	if (!requestBody.forEach) {
+		return "*";
+	}
+
 	if (requestBody.length === 0) {
 		return "*";
 	}

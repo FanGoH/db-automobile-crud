@@ -1,0 +1,36 @@
+{
+	"table": [
+		{
+			"Field": "ticket_id",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "refaccion_id",
+			"Type": "char(7)",
+			"Null": "NO",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "cantidad",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "precio",
+			"Type": "decimal(10,2)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

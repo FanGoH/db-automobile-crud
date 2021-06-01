@@ -1,0 +1,52 @@
+{
+	"table": [
+		{
+			"Field": "id",
+			"Type": "char(7)",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "precio_proveedor",
+			"Type": "decimal(10,2)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "precio_publico",
+			"Type": "decimal(10,2)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "proveedor",
+			"Type": "varchar(45)",
+			"Null": "YES",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "cantidad_inventario",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "Nombre",
+			"Type": "varchar(45)",
+			"Null": "YES",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

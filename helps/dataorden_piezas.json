@@ -1,0 +1,28 @@
+{
+	"table": [
+		{
+			"Field": "pedido_refaccion_id",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "refacciones_id",
+			"Type": "char(7)",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "cantidad",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

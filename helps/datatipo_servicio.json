@@ -1,0 +1,28 @@
+{
+	"table": [
+		{
+			"Field": "clave",
+			"Type": "char(7)",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "descripcion",
+			"Type": "varchar(100)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "costo",
+			"Type": "decimal(10,2)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

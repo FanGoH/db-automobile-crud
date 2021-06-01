@@ -1,0 +1,60 @@
+{
+	"table": [
+		{
+			"Field": "diagnostico_id",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "empleado_dni",
+			"Type": "decimal(9,0)",
+			"Null": "NO",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "cliente_dni",
+			"Type": "char(9)",
+			"Null": "NO",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "ticket_id",
+			"Type": "int",
+			"Null": "YES",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "automovil_numero_serie",
+			"Type": "bigint",
+			"Null": "NO",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "automovil_cliente_dni",
+			"Type": "char(9)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "orden_reparacion_id",
+			"Type": "int",
+			"Null": "YES",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

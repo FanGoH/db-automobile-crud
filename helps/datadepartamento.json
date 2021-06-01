@@ -1,0 +1,28 @@
+{
+	"table": [
+		{
+			"Field": "numero",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "gerente",
+			"Type": "decimal(9,0)",
+			"Null": "NO",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "nombre",
+			"Type": "varchar(45)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

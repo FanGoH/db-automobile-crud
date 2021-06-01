@@ -1,0 +1,76 @@
+{
+	"table": [
+		{
+			"Field": "dni",
+			"Type": "decimal(9,0)",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "nombre",
+			"Type": "varchar(45)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "apellido1",
+			"Type": "varchar(45)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "apellido2",
+			"Type": "varchar(45)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "nacimiento",
+			"Type": "datetime",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "contratacion",
+			"Type": "datetime",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "sueldo_base",
+			"Type": "decimal(10,2)",
+			"Null": "NO",
+			"Key": "",
+			"Default": "0.00",
+			"Extra": ""
+		},
+		{
+			"Field": "supervisor",
+			"Type": "decimal(9,0)",
+			"Null": "YES",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "dno",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

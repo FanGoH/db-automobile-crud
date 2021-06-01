@@ -1,0 +1,28 @@
+{
+	"table": [
+		{
+			"Field": "fecha_inicio",
+			"Type": "datetime",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "fecha_fin",
+			"Type": "datetime",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "id",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": "auto_increment"
+		}
+	]
+}

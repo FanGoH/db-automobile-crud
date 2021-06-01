@@ -153,3 +153,51 @@ export interface TipoServicio {
 	descripcion: string;
 	costo: number;
 }
+
+export type Tablas = {
+	automovil: Automovil;
+	cliente: Cliente;
+	departamento: Departamento;
+	diagnostico: Diagnostico;
+	empleado: Empleado;
+	entrega: Entrega;
+	garantia: Garantia;
+	orden_pieza: OrdenPieza;
+	orden_reparacion: OrdenReparacion;
+	piezas_ticket: PiezasTicket;
+	promocion: Promocion;
+	refaccion: Refaccion;
+	refaccion_compatible: RefaccionCompatible;
+	refacciones_necesarias: RefaccionesNecesarias;
+	revision: Revision;
+	servicio_requerido: ServicioRequerido;
+	tarea: Tarea;
+	ticket: Ticket;
+	tipo_automovil: TipoAutomovil;
+	tipo_diagnostico: TipoDiagnostico;
+	tipo_servicio: TipoServicio;
+};
+
+export const TableNames: (keyof Tablas)[] = [
+	"automovil",
+	"cliente",
+	"departamento",
+	"diagnostico",
+	"empleado",
+	"entrega",
+	"garantia",
+	"orden_pieza",
+	"orden_reparacion",
+	"piezas_ticket",
+	"promocion",
+	"refaccion",
+	"refaccion_compatible",
+	"refacciones_necesarias",
+	"revision",
+	"servicio_requerido",
+	"tarea",
+	"ticket",
+	"tipo_automovil",
+	"tipo_diagnostico",
+	"tipo_servicio",
+];

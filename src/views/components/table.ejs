@@ -1,0 +1,20 @@
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <% tableHeaders.forEach(element => { %>
+            <th scope="col"><%= helpers.displayifyName(element) %></th>
+            <% }) %>
+        </tr>
+    </thead>
+    <tbody>
+
+        <% tableContent.forEach(element => { %>
+        <tr>
+            <% Object.values(element).forEach(cell => { %>
+            <td><%= cell %></td>
+            <% }) %>
+        </tr>
+        <% }) %>
+
+    </tbody>
+</table>

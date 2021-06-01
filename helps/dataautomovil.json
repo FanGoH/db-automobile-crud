@@ -1,0 +1,44 @@
+{
+	"table": [
+		{
+			"Field": "numero_serie",
+			"Type": "bigint",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "fecha_registro",
+			"Type": "datetime",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "color",
+			"Type": "varchar(45)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "tipo_automovil_id",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "cliente_dni",
+			"Type": "char(9)",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

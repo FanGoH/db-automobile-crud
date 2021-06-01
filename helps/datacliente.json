@@ -1,0 +1,60 @@
+{
+	"table": [
+		{
+			"Field": "dni",
+			"Type": "char(9)",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "nombre",
+			"Type": "varchar(45)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "apellido1",
+			"Type": "varchar(45)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "apellido2",
+			"Type": "varchar(45)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "direccion",
+			"Type": "varchar(45)",
+			"Null": "YES",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "telefono",
+			"Type": "decimal(12,0)",
+			"Null": "YES",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "recurrente",
+			"Type": "tinyint",
+			"Null": "YES",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

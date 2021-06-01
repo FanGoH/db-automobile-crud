@@ -1,0 +1,36 @@
+{
+	"table": [
+		{
+			"Field": "fecha",
+			"Type": "datetime",
+			"Null": "YES",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "motivo",
+			"Type": "varchar(100)",
+			"Null": "YES",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "entregado",
+			"Type": "tinyint",
+			"Null": "YES",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "orden_reparacion_id",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "MUL",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

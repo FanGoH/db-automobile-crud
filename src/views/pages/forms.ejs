@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ("../partials/head.ejs") %>
+</head>
+
+<body>
+<main class="container">
+    <h1 class="jumbotron">Hello World </h1>
+
+    <h2>Aqui irán formularios de <b> <%= tableName %> </b> </h2>
+
+    <%- include("../components/table.ejs", {
+tableHeaders: ["Field", "Type", "Nullable", "Key", "References"],
+tableContent: tableColumns
+}) %>
+
+
+<form action="/api/<%= tableName %>/form" method="post">
+<% tableColumns.forEach(col => { %>
+
+<% if (col.References === undefined) { %>
+    <%- helpers.generateField(col) %>
+<% } else { %>
+     <%- helpers.referenceField(col, referencedFields.find((obj) => obj.tableName === col.References)) %>
+ <% } %>
+
+<% }) %>
+<button type="submit" value="submit" class="btn btn-primary"> Enviar </button>
+</form>
+
+
+
+
+</main>
+ <%- include ("../partials/footer.ejs") %>
+</body>
+
+</html>

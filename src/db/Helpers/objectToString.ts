@@ -9,12 +9,12 @@ export const objectKeysToString = (dataObject: Object) => {
 export const objectValuesToString = (dataObject: Object) => {
 	const values = Object.values(dataObject);
 
-	let valuesInString = values.reduce((prev, curr) => {
+	let valuesInString: string = values.reduce((prev, curr) => {
 		if (typeof curr === "string") {
 			return `${prev} "${curr}",`;
 		}
 
-		return prev + curr + ",";
+		return `${prev} ${curr},`;
 	}, "");
 
 	return valuesInString.substring(0, valuesInString.length - 1);

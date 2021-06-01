@@ -1,0 +1,36 @@
+{
+	"table": [
+		{
+			"Field": "clave",
+			"Type": "char(5)",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "duracion",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "descripcion",
+			"Type": "varchar(100)",
+			"Null": "YES",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "precio",
+			"Type": "decimal(10,2)",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

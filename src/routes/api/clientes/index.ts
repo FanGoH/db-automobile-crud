@@ -5,8 +5,6 @@ import { generateFieldsObject } from "../../../db/Helpers/queryFields";
 export const router = Router();
 
 router.get("/", async (req, res) => {
-	const fields = generateFieldsObject(req.body);
-
 	res.json(await findClientes());
 });
 

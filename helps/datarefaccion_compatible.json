@@ -1,0 +1,20 @@
+{
+	"table": [
+		{
+			"Field": "id_refaccion",
+			"Type": "char(7)",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "tipo_automovil_id",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

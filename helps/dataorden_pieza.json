@@ -1,0 +1,12 @@
+{
+	"table": [
+		{
+			"Field": "idorden_pieza",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}

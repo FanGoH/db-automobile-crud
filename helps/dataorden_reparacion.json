@@ -1,0 +1,28 @@
+{
+	"table": [
+		{
+			"Field": "id",
+			"Type": "int",
+			"Null": "NO",
+			"Key": "PRI",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "fecha_inicio",
+			"Type": "datetime",
+			"Null": "NO",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		},
+		{
+			"Field": "fecha_finalizacoin",
+			"Type": "datetime",
+			"Null": "YES",
+			"Key": "",
+			"Default": null,
+			"Extra": ""
+		}
+	]
+}
