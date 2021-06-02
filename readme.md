@@ -1,3 +1,26 @@
+# Uso y ejecucion
+Es necesario tener instalado node.js 
+https://nodejs.org/en/
+
+Se clona el proyecto
+En la terminal se utiliza el comando
+```
+npm start
+```
+
+El proyecto se ejecuta por defecto en http://localhost:3005
+
+Es necesario crear un archivo en que contenga
+```
+DATABASE_HOST="localhost"
+DATABASE_USER = "root"
+DATABASE_PASSWORD = "root"
+DATABASE_NAME="TallerMecanico"
+```
+
+Ademas, es necesario tener la base de datos en un servidor montado de MySQL
+
+
 # Rutas
 
 ## API Routes
