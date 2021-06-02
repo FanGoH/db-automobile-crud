@@ -11,14 +11,13 @@ with reparacion_por_fecha as (
     select
       automovil_cliente_dni,
       automovil_numero_serie,
-      count(*) NumServicio
+      count(*) as NumServicio
     from
       reparacion_por_fecha
-      join tarea on tarea.orden_reparacion_id = id
-    group by
-      automovil_numero_serie
+      natural join tarea  group by automovil_numero_serie, automovil_cliente_dni having count(*) = NumServicio
   )
 select
-  *
+  nombre, automovil_numero_serie, NumServicio
 from
-  tareas_totales;
+  tareas_totales join cliente on dni=automovil_cliente_dni order by NumServicio desc
+  limit 1;
