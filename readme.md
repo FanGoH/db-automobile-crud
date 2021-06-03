@@ -1,7 +1,13 @@
 # Rutas
 
-NOTA: Para que el proyecto funcione, es necesario clonar el repositorio, ejecutar npm install en la carpeta raíz y correr con npm start. 
+NOTA: Para que el proyecto funcione, es necesario:
+
+- Clonar o descargar el repositorio
+- Ejecutar yarn install en la carpeta raíz y correr con yarn start. 
+
 Ademas, se deberá ingresar los datos correspondientes a la respectiva conexión de MySQL en el archivo .env en la raíz.
+
+[Link para instalar Yarn](https://classic.yarnpkg.com/en/docs/install)
 
 ## VIEW Routes
 
